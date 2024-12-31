@@ -8,3 +8,10 @@ MyCustButton.defaultProps ={
 };
 
 export default MyCustButton;
+
+
+{/* <MyCustButton var1={true}/>
+    <br />
+    <MyCustButton var2={"hello"}/>
+    <br />
+    <MyCustButton var1={true} var2={"world"}/> */}
