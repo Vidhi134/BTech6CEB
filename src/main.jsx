@@ -1,6 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import HookExmp1 from './lec3112/hookexmp1'
+//import StateExample from './lec0601/hookexmp'
+//import StateExample2 from './lec0601/hookexmp2'
+import StateExample3 from './lec0601/hookexmp3'
+
 //import MyCustButton from './lec3112/purefunc2'
 //import Purefunc1 from './lec3112/purefunc1'
 //import Timetable from './lec2412/timetable'
@@ -13,6 +16,6 @@ import HookExmp1 from './lec3112/hookexmp1'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HookExmp1/>
+    <StateExample3/>
   </StrictMode>,
 )
