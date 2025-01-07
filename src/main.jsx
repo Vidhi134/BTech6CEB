@@ -2,7 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 //import StateExample from './lec0601/hookexmp'
 //import StateExample2 from './lec0601/hookexmp2'
-import StateExample3 from './lec0601/hookexmp3'
+//import StateExample3 from './lec0601/hookexmp3'
+//import Addition from './lec0701/exercise1'
+//import EmailValidator from './lec0701/exercise2'
+import CharacterCounter from './lec0701/exercise4'
 
 //import MyCustButton from './lec3112/purefunc2'
 //import Purefunc1 from './lec3112/purefunc1'
@@ -16,6 +19,6 @@ import StateExample3 from './lec0601/hookexmp3'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <StateExample3/>
+    <CharacterCounter/>
   </StrictMode>,
 )
