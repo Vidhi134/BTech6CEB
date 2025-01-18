@@ -5,7 +5,10 @@ import { createRoot } from 'react-dom/client'
 //import StateExample3 from './lec0601/hookexmp3'
 //import Addition from './lec0701/exercise1'
 //import EmailValidator from './lec0701/exercise2'
-import CharacterCounter from './lec0701/exercise4'
+//import CharacterCounter from './lec0701/exercise4'
+//import ApiSimulation from './lec1801/hookuseeffect'
+//import CountdownTimer from './lec1801/countdown'
+import ListSimulation from './lec1801/array'
 
 //import MyCustButton from './lec3112/purefunc2'
 //import Purefunc1 from './lec3112/purefunc1'
@@ -19,6 +22,6 @@ import CharacterCounter from './lec0701/exercise4'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CharacterCounter/>
+<ListSimulation/>
   </StrictMode>,
 )
