@@ -9,7 +9,8 @@ import { createRoot } from 'react-dom/client'
 //import ApiSimulation from './lec1801/hookuseeffect'
 //import CountdownTimer from './lec1801/countdown'
 //import ListSimulation from './lec1801/array'
-import CustomComp from './lec2101/compo1'
+//import CustomComp from './lec2101/compo1'
+import RegistrationForm from './lec2101/registration'
 
 //import MyCustButton from './lec3112/purefunc2'
 //import Purefunc1 from './lec3112/purefunc1'
@@ -23,6 +24,6 @@ import CustomComp from './lec2101/compo1'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<CustomComp/>
+<RegistrationForm/>
   </StrictMode>,
 )
