@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import ReducerExmp from './lec2402/reduceexmp'
 //import StateExample from './lec0601/hookexmp'
 //import StateExample2 from './lec0601/hookexmp2'
 //import StateExample3 from './lec0601/hookexmp3'
@@ -10,7 +11,7 @@ import { createRoot } from 'react-dom/client'
 //import CountdownTimer from './lec1801/countdown'
 //import ListSimulation from './lec1801/array'
 //import CustomComp from './lec2101/compo1'
-import RegistrationForm from './lec2101/registration'
+//import RegistrationForm from './lec2101/registration'
 
 //import MyCustButton from './lec3112/purefunc2'
 //import Purefunc1 from './lec3112/purefunc1'
@@ -24,6 +25,6 @@ import RegistrationForm from './lec2101/registration'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<RegistrationForm/>
+<ReducerExmp/>
   </StrictMode>,
 )
