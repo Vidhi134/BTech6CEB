@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import ReducerExmp from './lec2402/reduceexmp'
+//import ReducerDependency from './lec1003/reduceexmp2'
+import MonolithicComp from './lec1103/monolithicClass'
+//import ReducerExmp from './lec2402/reduceexmp'
 //import StateExample from './lec0601/hookexmp'
 //import StateExample2 from './lec0601/hookexmp2'
 //import StateExample3 from './lec0601/hookexmp3'
@@ -25,6 +27,6 @@ import ReducerExmp from './lec2402/reduceexmp'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<ReducerExmp/>
+<MonolithicComp/>
   </StrictMode>,
 )

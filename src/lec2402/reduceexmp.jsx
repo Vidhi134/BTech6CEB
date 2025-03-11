@@ -19,7 +19,7 @@ function ReducerExmp(){
             <h1>Age: {state.age}</h1>
             <input type="number" value={state.age} onChange={(e) => dispatch({type: "changeage", value: parseInt(e.target.value)})} />
         </div>
-    )
+    ) 
 }
 
 export default ReducerExmp;
